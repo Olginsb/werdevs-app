@@ -1,0 +1,41 @@
+<div class="main-wrapper">
+  <div class="block-menu">
+      <div class="logo">
+        <img src="../../assets/img/Logo_original.jpg" alt="">
+      </div>
+      <div class="menu">
+        <ul>
+          <li><a href="#" class="menu-link">
+            HOME
+          </a></li>
+          <li><a routerLink="/about" href="" class="menu-link">
+            ABOUT US
+          </a></li>
+        </ul>
+      </div>
+  </div>
+  <div class="block-img">
+    <div class="main-img" >
+      <div class="text">
+        <h1>CHOOSE THE DAY </h1>
+        <h1>OF THE MEETING </h1>
+        <P>We encourage you to book your</P>
+        <p>appointment online</p>
+        <p>This will save your time</p>
+      </div>
+
+    </div>
+    <div class="calendar">
+      <mwl-calendar-month-view
+        [@.disabled]="true"
+        [viewDate]="viewDate"
+        [events]="events"
+        [activeDayIsOpen]="activeDayIsOpen"
+        (dayClicked)="dayClicked($event.day)"
+      >
+      </mwl-calendar-month-view>
+    </div>
+  </div>
+</div>
+
+

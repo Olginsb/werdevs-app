@@ -1,0 +1,69 @@
+.main-img{
+  width: 70%;
+  height: 100%;
+  background-image: url("../../assets/img/Untitled-1Artboard 1 copy.jpg") ;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+}
+
+.block-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 10vh;
+}
+
+.logo img {
+  width: 150px;
+  height: 50px;
+  margin-left: 70px;
+}
+.menu {
+  width: 60%;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 50px;
+}
+.menu ul li {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.menu-link {
+  color: dimgrey;
+  text-decoration: none;
+}
+.block-text {
+  width: 60%;
+  height: 100vh;
+  min-height: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+
+}
+.text {
+  margin: 0 auto;
+
+}
+
+h1{
+  color: black;
+  font-weight: bold;
+  margin: 20px 0 ;
+}
+p {
+  font-size: 18px;
+  color: dimgrey;
+}
